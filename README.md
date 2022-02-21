@@ -3,7 +3,7 @@ La liste d’outils ayant l’étiquette “DevOps” s’allonge de jour en jou
 
 Cet article vous permettra de connaître les différents outils Devops par catégorie afin d’améliorer la productivité et la collaboration de vos équipes.
 
-SOMMAIRE
+# SOMMAIRE
 
 La culture Devops et ses avantages
 Les différents outils utilisés en Devops
@@ -17,9 +17,10 @@ Outils de gestion de projet
 Gestion des secrets
 Les outils Devops du point de vue de Padok
 La culture Devops et ses avantages
+
 DevOps est la contraction des mots “developpers” et “ops”. Il s’agit d’une culture de collaboration visant à automatiser les processus entre les équipes de développement et les services opérationnelles afin de faciliter le développement, le test et la livraison des logiciels.
 
-Dansun précédent article, nous avons vu que traditionnellement ces équipes ont des intérêts plutôt opposés : les développeurs sont censés créer de la valeur et rendre le produit/service toujours plus innovant et les opérationnels ont pour objectif de maintenir la stabilité des infrastructures.
+Nous avons vu que traditionnellement ces équipes ont des intérêts plutôt opposés : les développeurs sont censés créer de la valeur et rendre le produit/service toujours plus innovant et les opérationnels ont pour objectif de maintenir la stabilité des infrastructures.
 
 Les avantages de la culture Devops sont nombreux. Une collaboration Devops permet d’effectuer des mises en production plus rapidement et de meilleure qualité. L’équipe Devops livre plus souvent tout en gardant une qualité et stabilité des infrastructures. Une bonne stratégie Devops repose sur une collaboration poussée entre les ops et les développeurs, une meilleure communication et donc une meilleure performance des équipes.
 
@@ -29,12 +30,14 @@ Les équipes de Devops utilisent quotidiennement des outils divers pour des tâc
 source-code-management-git-subversion-github-gitlab-bitbucket
 
 Les outils de gestion de code source
+
 La première étape d’une collaboration Devops est d’aligner les équipes de développement et les ops sur un même outil de gestion de code source. Concrètement, cela permet de connaître les différentes modifications du code et les auteurs de celles-ci. Il s’agit d’un outil de versionning : toute modification de code entraîne la création d’une nouvelle version. Historiquement, les ops n’utilisent pas ce genre d’outils car il y a peu d'automatisation, tout est manuel et il n'y a donc pas de code. Or une fois qu'il y a du code, la bonne pratique est de le partager et de le faire relire par ses pairs. C'est là que les outils de gestion de code rentrent en scène.
 
-Il y a deux types de gestions de code :
+#### Il y a deux types de gestions de code :
 
 Les outils comme Git et Subversion, qui servent à créer un historique de ses fichiers : à tel moment, tel changement a été fait dans tes fichier. Subversion est un outil plus ancien et moins efficace que Git.
 Les outils comme Github, Gitlab et Bitbucket qui servent à partager son code, et donc l'historique qui va avec. Ils sont basés sur Git et il est possible d'avoir l'historique du code et de travailler à plusieurs dessus. Si Github a le monopole historiquement, Gitlab devient de plus en plus populaire, notamment grâce à Gitlab CI qui est efficace.
+
 CI-CD-jenkins-gitlabci-bamboo-teamcity-concourse-circleci-travisci
 
 Les tests d’intégration continue / déploiement continu
@@ -97,7 +100,7 @@ D’un autre côté, Trello se démarque par son intuitivité et sa simplicité 
 
 secrets-vault-secrets
 
-Gestion des secrets
+## Gestion des secrets
 Avec le besoin d’avoir une sécurisation toujours plus performante, de nouveaux outils de gestion des secrets apparaissent comme Vault. Vault permet uneorganisationdes secrets statique et dynamique.
 
 Secrets, le service de gestion des secrets de Kubernetes est une alternative à Vault.
